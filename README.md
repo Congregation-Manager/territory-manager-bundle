@@ -1,6 +1,24 @@
-# congregation-manager/territory-manager-bundle
 
-Territory Manager for Symfony applications.
+# Congregation Manager
 
-This repository is a read-only split of [Congregation-Manager/Congregation-Manager](https://github.com/Congregation-Manager/Congregation-Manager).
-Please open issues and pull requests there.
+Tool to manage Congregation based on Symfony framework.
+
+
+## Documentation
+
+[Documentation](docs/index.md)
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## Authors
+
+- [@Congregation-Manager](https://www.github.com/Congregation-Manager)
+

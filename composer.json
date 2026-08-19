@@ -1,0 +1,59 @@
+{
+    "name": "congregation-manager/territory-manager-bundle",
+    "type": "symfony-bundle",
+    "description": "Territory Manager for Symfony applications.",
+    "keywords": [
+        "territory",
+        "congregation-manager",
+        "territory-manager"
+    ],
+    "homepage": "https://github.com/congregation-manager/congregation-manager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Congregation Manager",
+            "homepage": "https://github.com/Congregation-Manager"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CongregationManager\\Bundle\\TerritoryManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CongregationManager\\Bundle\\TerritoryManager\\Tests\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../*/*"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+    "require": {
+        "php": "^8.3",
+        "congregation-manager/core": "self.version",
+        "congregation-manager/resource-bundle": "self.version",
+        "congregation-manager/resource-contract": "self.version",
+        "congregation-manager/territory-manager": "self.version",
+        "doctrine/orm": "^2.17.1",
+        "doctrine/persistence": "^3.2.0",
+        "phpoffice/phpword": "^1.1.0",
+        "symfony/dependency-injection": "^7.1.1",
+        "symfony/doctrine-bridge": "^7.1.0",
+        "symfony/form": "^7.1.1",
+        "symfony/http-kernel": "^7.1.1",
+        "symfony/options-resolver": "^7.1",
+        "symfony/translation-contracts": "^3.4.0",
+        "symfony/validator": "^7.1.0",
+        "webmozart/assert": "^1.11"
+    }
+}
